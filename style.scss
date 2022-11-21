@@ -1,0 +1,111 @@
+HTML, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 5% 10% 10% 10%;
+    background-color: lightgray;
+    margin: 2px 110px 10% 110px;
+    main{
+        width: 60%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        width: fit-content;
+        background-color: white;
+        &:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            #fille{
+                transform: scale(1.5);
+                opacity: 0.6;    
+                }
+            .text{
+                transform: translate(0,-150px);
+                background-color: white;
+            }
+            .image h2{
+                transform: translate(0,-140px);
+                z-index: 1;
+            }
+            .text p{
+                visibility: visible;
+                color: grey;
+                text-align: justify;
+                padding-right: 50px;
+            }
+        }
+         
+    }
+    .image{
+        width: auto;
+        overflow: hidden;
+        img{
+           transition: transform .2s; 
+        }
+        p{
+            background-color: orangered;
+            color: white;
+            width: fit-content;
+            border-radius: 50%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            margin-top: -300px;
+            margin-left: 320px;
+            padding: 5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            visibility: visible;
+            }
+        h2{
+            background-color: orangered;
+            color: white;
+            width: fit-content;
+            font-weight: bold;
+            margin-top: -110px;
+            display: flex;
+            position: absolute;
+            margin-top: -35px;
+            padding: 5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }    
+        }
+    .icon{    
+        ul{
+            list-style: none;
+            display: inline;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 100px;
+            img{
+                width: 15px;
+                height: 15px;
+            }
+            li{
+                padding-right: 3%;
+            }
+        }
+    }
+    .text{
+        padding-left: 20px;
+        }
+        
+        h1{
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        h3{
+            color: orangered;
+        }
+        p{
+            color: black;
+            text-align: justify;
+            padding-right: 50px;
+            visibility: hidden;
+            margin-bottom: -150px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+    }

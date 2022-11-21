@@ -1,0 +1,113 @@
+HTML, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  padding: 5% 10% 10% 10%;
+  background-color: lightgray;
+  margin: 2px 110px 10% 110px;
+}
+HTML main, body main {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: white;
+}
+HTML main:hover, body main:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+HTML main:hover #fille, body main:hover #fille {
+  transform: scale(1.5);
+  opacity: 0.6;
+}
+HTML main:hover .text, body main:hover .text {
+  transform: translate(0, -150px);
+  background-color: white;
+}
+HTML main:hover .image h2, body main:hover .image h2 {
+  transform: translate(0, -140px);
+  z-index: 1;
+}
+HTML main:hover .text p, body main:hover .text p {
+  visibility: visible;
+  color: grey;
+  text-align: justify;
+  padding-right: 50px;
+}
+HTML .image, body .image {
+  width: auto;
+  overflow: hidden;
+}
+HTML .image img, body .image img {
+  transition: transform 0.2s;
+}
+HTML .image p, body .image p {
+  background-color: orangered;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 320px;
+  padding: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  visibility: visible;
+}
+HTML .image h2, body .image h2 {
+  background-color: orangered;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  margin-top: -110px;
+  display: flex;
+  position: absolute;
+  margin-top: -35px;
+  padding: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+HTML .icon ul, body .icon ul {
+  list-style: none;
+  display: inline;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+HTML .icon ul img, body .icon ul img {
+  width: 15px;
+  height: 15px;
+}
+HTML .icon ul li, body .icon ul li {
+  padding-right: 3%;
+}
+HTML .text, body .text {
+  padding-left: 20px;
+}
+HTML h1, body h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+HTML h3, body h3 {
+  color: orangered;
+}
+HTML p, body p {
+  color: black;
+  text-align: justify;
+  padding-right: 50px;
+  visibility: hidden;
+  margin-bottom: -150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}/*# sourceMappingURL=style.css.map */
